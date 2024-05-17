@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Hk\Contracts;
 
 use Psr\EventDispatcher\EventDispatcherInterface as PsrEventDispatcherInterface;
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 interface EventDispatcherInterface extends PsrEventDispatcherInterface
 {
