@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Hk\Contracts;
 
 use Psr\EventDispatcher\EventDispatcherInterface as PsrEventDispatcherInterface;

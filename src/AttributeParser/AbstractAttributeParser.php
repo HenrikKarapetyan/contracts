@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Hk\Contracts\AttributeParser;
 
 use Hk\Contracts\CoreEvents;

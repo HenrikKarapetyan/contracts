@@ -2,6 +2,8 @@
 
 namespace Hk\Contracts;
 
+use Hk\Contracts\Enums\InjectorModes;
+
 interface DependencyInjectorInterface
 {
     /**
@@ -17,9 +19,9 @@ interface DependencyInjectorInterface
 
     public function dumpContainer(): void;
 
-    public function setMode(InjectorModesInterface $mode): void;
+    public function setMode(InjectorModes $mode): void;
 
-    public function getMode(): InjectorModesInterface;
+    public function getMode(): InjectorModes;
 
     /**
      * @param object               $obj
