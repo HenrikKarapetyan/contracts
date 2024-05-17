@@ -1,5 +1,5 @@
 {
-    "name": "hk/contracts",
+    "name": "henrik/contracts",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
