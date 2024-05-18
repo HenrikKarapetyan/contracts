@@ -2,7 +2,7 @@
 
 namespace Hk\Contracts;
 
-class BaseComponent implements ComponentInterface
+abstract class BaseComponent implements ComponentInterface
 {
     private string $basePath;
 
