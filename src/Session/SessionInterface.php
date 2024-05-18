@@ -1,6 +1,8 @@
 <?php
 
-namespace Hk\Contracts;
+declare(strict_types=1);
+
+namespace Hk\Contracts\Session;
 
 interface SessionInterface
 {
