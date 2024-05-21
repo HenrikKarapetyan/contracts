@@ -9,7 +9,7 @@ interface CookieInterface
     /**
      * @param int $expire
      */
-    public function setExpire(int $expire): void;
+    public function setExpire(int $expire): self;
 
     /**
      * @param bool $expireSessionCookies
@@ -21,32 +21,32 @@ interface CookieInterface
     /**
      * @param string $name
      */
-    public function setName(string $name): void;
+    public function setName(string $name): self;
 
     /**
      * @param string $value
      */
-    public function setValue(string $value): void;
+    public function setValue(string $value): self;
 
     /**
      * @param string $path
      */
-    public function setPath(string $path): void;
+    public function setPath(string $path): self;
 
     /**
      * @param string $domain
      */
-    public function setDomain(string $domain): void;
+    public function setDomain(string $domain): self;
 
     /**
      * @param bool $secure
      */
-    public function setSecure(bool $secure): void;
+    public function setSecure(bool $secure): self;
 
     /**
      * @param bool $httpOnly
      */
-    public function setHttpOnly(bool $httpOnly): void;
+    public function setHttpOnly(bool $httpOnly): self;
 
     /**
      * @return string
