@@ -8,29 +8,4 @@ abstract class BaseComponent implements ComponentInterface
     {
         return [];
     }
-
-    public function getControllersPath(): string
-    {
-        return '';
-    }
-
-    public function getTemplatesPath(): string
-    {
-        return '';
-    }
-
-    public function getEventSubscribers(): array
-    {
-        return [];
-    }
-
-    public function dependsOn(): array
-    {
-        return [];
-    }
-
-    public function getAttributesAndParsers(): array
-    {
-        return [];
-    }
 }
