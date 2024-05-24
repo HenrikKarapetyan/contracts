@@ -8,8 +8,6 @@ use Stringable;
 
 interface CookieInterface extends Stringable
 {
-    public static function parse(string $string): self;
-
     /**
      * @param int $expire
      */
