@@ -11,4 +11,6 @@ interface CoreEvents
 
     public const ROUTE_MATCH_EVENTS = 'ROUTE_MATCH_EVENTS';
     public const RESPONSE_EVENTS    = 'RESPONSE_EVENTS';
+
+    public const ROUTE_DISPATCHER_DEFAULT_DEFINITION_ID = 'routeEventDispatcher';
 }
