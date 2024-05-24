@@ -4,8 +4,6 @@ namespace Hk\Contracts;
 
 abstract class BaseComponent implements ComponentInterface
 {
-    private string $basePath;
-
     public function getServices(): array
     {
         return [];
@@ -31,13 +29,8 @@ abstract class BaseComponent implements ComponentInterface
         return [];
     }
 
-    public function setBasePath(string $basePath): void
+    public function getAttributesAndParsers(): array
     {
-        $this->basePath = $basePath;
-    }
-
-    public function getBasePath(): string
-    {
-        return $this->basePath;
+        return [];
     }
 }

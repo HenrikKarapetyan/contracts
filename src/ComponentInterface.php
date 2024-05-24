@@ -25,7 +25,8 @@ interface ComponentInterface
      */
     public function dependsOn(): array;
 
-    public function setBasePath(string $basePath): void;
-
-    public function getBasePath(): string;
+    /**
+     * @return array<string, string>
+     */
+    public function getAttributesAndParsers(): array;
 }

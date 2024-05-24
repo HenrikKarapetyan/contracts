@@ -30,4 +30,6 @@ interface DependencyInjectorInterface
      * @return object
      */
     public function initializeParams(object $obj, array $params): object;
+
+    public function add(string $scope, DefinitionInterface $definition): void;
 }
