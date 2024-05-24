@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Henrik\Contracts\Session;
 
-interface CookieInterface
+use Stringable;
+
+interface CookieInterface extends Stringable
 {
     /**
      * @param int $expire
