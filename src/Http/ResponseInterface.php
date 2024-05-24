@@ -1,6 +1,6 @@
 <?php
 
-namespace Henrik\Http;
+namespace Henrik\Contracts\Http;
 
 use Henrik\Contracts\Session\CookieInterface;
 
