@@ -2,7 +2,7 @@
 
 namespace Henrik\Contracts\ComponentInterfaces;
 
-interface EventAwareInterface
+interface EventSubscriberAwareInterface
 {
     /**
      * @return array<string>
