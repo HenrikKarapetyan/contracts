@@ -1,6 +1,6 @@
 <?php
 
-namespace Hk\Contracts\Http;
+namespace Henrik\Contracts\Http;
 
 use BackedEnum;
 
