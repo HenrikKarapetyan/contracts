@@ -1,5 +1,5 @@
 <?php
 
-namespace Hk\Contracts;
+namespace Hk\Contracts\Command;
 
 interface CommandsContainerInterface {}
