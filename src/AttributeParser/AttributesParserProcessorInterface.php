@@ -1,6 +1,6 @@
 <?php
 
-namespace Hk\Contracts\AttributeParser;
+namespace Henrik\Contracts\AttributeParser;
 
 use ReflectionClass;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hk\Contracts\Command;
+namespace Henrik\Contracts\Command;
 
 interface CommandDefinitionInterface
 {

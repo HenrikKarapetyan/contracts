@@ -1,6 +1,6 @@
 <?php
 
-namespace Hk\Contracts\Enums;
+namespace Henrik\Contracts\Enums;
 
 enum ServiceRegisterTypes
 {

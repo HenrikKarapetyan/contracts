@@ -1,6 +1,6 @@
 <?php
 
-namespace Hk\Contracts\Utils;
+namespace Henrik\Contracts\Utils;
 
 interface MarkersInterface
 {

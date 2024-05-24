@@ -1,6 +1,6 @@
 <?php
 
-namespace Hk\Contracts;
+namespace Henrik\Contracts;
 
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\UriInterface;

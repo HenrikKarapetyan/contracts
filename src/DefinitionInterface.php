@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Hk\Contracts;
+namespace Henrik\Contracts;
 
 interface DefinitionInterface
 {

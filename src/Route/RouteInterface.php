@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hk\Contracts\Route;
+namespace Henrik\Contracts\Route;
 
 interface RouteInterface
 {

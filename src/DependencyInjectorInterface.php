@@ -1,8 +1,8 @@
 <?php
 
-namespace Hk\Contracts;
+namespace Henrik\Contracts;
 
-use Hk\Contracts\Enums\InjectorModes;
+use Henrik\Contracts\Enums\InjectorModes;
 
 interface DependencyInjectorInterface
 {

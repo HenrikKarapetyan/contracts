@@ -1,8 +1,8 @@
 <?php
 
-namespace Hk\Contracts\Route;
+namespace Henrik\Contracts\Route;
 
-use Hk\Contracts\HandlerTypesEnum;
+use Henrik\Contracts\HandlerTypesEnum;
 
 interface RouteOptionInterface
 {

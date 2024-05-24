@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hk\Contracts\Session;
+namespace Henrik\Contracts\Session;
 
 interface SessionInterface
 {

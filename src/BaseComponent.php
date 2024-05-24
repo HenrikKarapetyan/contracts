@@ -1,6 +1,6 @@
 <?php
 
-namespace Hk\Contracts;
+namespace Henrik\Contracts;
 
 abstract class BaseComponent implements ComponentInterface
 {

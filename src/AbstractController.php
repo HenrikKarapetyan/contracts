@@ -1,5 +1,5 @@
 <?php
 
-namespace Hk\Contracts;
+namespace Henrik\Contracts;
 
 abstract class AbstractController {}

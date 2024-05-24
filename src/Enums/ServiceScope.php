@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Hk\Contracts\Enums;
+namespace Henrik\Contracts\Enums;
 
 enum ServiceScope: string
 {

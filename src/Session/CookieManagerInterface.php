@@ -1,6 +1,6 @@
 <?php
 
-namespace Hk\Contracts\Session;
+namespace Henrik\Contracts\Session;
 
 interface CookieManagerInterface
 {
