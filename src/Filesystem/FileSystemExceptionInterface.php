@@ -2,7 +2,6 @@
 
 namespace Henrik\Contracts\Filesystem;
 
-interface FileSystemExceptionInterface
-{
+use Throwable;
 
-}
+interface FileSystemExceptionInterface extends Throwable {}

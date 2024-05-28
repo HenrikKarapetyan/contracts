@@ -23,7 +23,6 @@ interface FilesystemInterface
      */
     public function getFilesFromDirectory(string $directory, ?string $fileExtension, ?array $excludedPaths = []): array;
 
-
     public function getPhpClassesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
 
     public function createFile(string $path): void;
