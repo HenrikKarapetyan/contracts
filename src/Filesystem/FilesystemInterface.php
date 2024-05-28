@@ -82,10 +82,12 @@ interface FilesystemInterface
     public static function copyDirectory(string $source, string $destination, ?string $fileExtension, ?array $excludedPaths = []): void;
 
     /**
-     * @param string $source
-     * @param string $destination
+     * @param string        $source
+     * @param string        $destination
+     * @param string|null   $fileExtension
+     * @param string[]|null $excludedPaths
      *
      * @return void
      */
-    public static function moveDirectory(string $source, string $destination): void;
+    public static function moveDirectory(string $source, string $destination, ?string $fileExtension = null, ?array $excludedPaths = []): void;
 }
