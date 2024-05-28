@@ -12,7 +12,7 @@ interface FilesystemInterface
      *
      * @return void
      */
-    public function mkdir(string $path, int $mode = 0o775): void;
+    public static function mkdir(string $path, int $mode = 0o775): void;
 
     /**
      * @param string      $directory
@@ -21,9 +21,9 @@ interface FilesystemInterface
      *
      * @return string[]
      */
-    public function getFilesFromDirectory(string $directory, ?string $fileExtension, ?array $excludedPaths = []): array;
+    public static function getFilesFromDirectory(string $directory, ?string $fileExtension, ?array $excludedPaths = []): array;
 
-    public function getPhpClassesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
+    public static function getPhpClassesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
 
-    public function createFile(string $path, int $mode = 0o664): void;
+    public static function createFile(string $path, int $mode = 0o664): void;
 }
