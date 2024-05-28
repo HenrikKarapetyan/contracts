@@ -5,14 +5,14 @@ namespace Henrik\Contracts\Filesystem;
 interface FilesystemInterface
 {
     /**
-     * @param string   $path
-     * @param string[] $permissions
+     * @param string $path
+     * @param int    $mode
      *
      * @throws FileSystemExceptionInterface
      *
      * @return void
      */
-    public function mkdir(string $path, $permissions = []): void;
+    public function mkdir(string $path, int $mode = 0o775): void;
 
     /**
      * @param string      $directory
@@ -25,5 +25,5 @@ interface FilesystemInterface
 
     public function getPhpClassesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
 
-    public function createFile(string $path): void;
+    public function createFile(string $path, int $mode = 0o664): void;
 }
