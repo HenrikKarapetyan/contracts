@@ -32,17 +32,57 @@ interface FilesystemInterface
      */
     public static function getPhpClassesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
 
+    /**
+     * @param string $path
+     * @param int    $mode
+     *
+     * @return void
+     */
     public static function createFile(string $path, int $mode = 0o664): void;
 
+    /**
+     * @param string $directory
+     *
+     * @return void
+     */
     public static function deleteDirectory(string $directory): void;
 
+    /**
+     * @param string $file
+     *
+     * @return void
+     */
     public static function deleteFile(string $file): void;
 
+    /**
+     * @param string $source
+     * @param string $destination
+     *
+     * @return void
+     */
     public static function copyFile(string $source, string $destination): void;
 
+    /**
+     * @param string $source
+     * @param string $destination
+     *
+     * @return void
+     */
     public static function moveFile(string $source, string $destination): void;
 
+    /**
+     * @param string $source
+     * @param string $destination
+     *
+     * @return void
+     */
     public static function copyDirectory(string $source, string $destination): void;
 
+    /**
+     * @param string $source
+     * @param string $destination
+     *
+     * @return void
+     */
     public static function moveDirectory(string $source, string $destination): void;
 }
