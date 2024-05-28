@@ -23,7 +23,26 @@ interface FilesystemInterface
      */
     public static function getFilesFromDirectory(string $directory, ?string $fileExtension, ?array $excludedPaths = []): array;
 
+    /**
+     * @param string        $directory
+     * @param string        $namespace
+     * @param string[]|null $excludedPaths
+     *
+     * @return string[]
+     */
     public static function getPhpClassesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
 
     public static function createFile(string $path, int $mode = 0o664): void;
+
+    public static function deleteDirectory(string $directory): void;
+
+    public static function deleteFile(string $file): void;
+
+    public static function copyFile(string $source, string $destination): void;
+
+    public static function moveFile(string $source, string $destination): void;
+
+    public static function copyDirectory(string $source, string $destination): void;
+
+    public static function moveDirectory(string $source, string $destination): void;
 }
