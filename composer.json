@@ -17,7 +17,9 @@
     },
     "require": {
         "psr/event-dispatcher": "^1.0@dev",
-        "psr/http-message": "^2.0@dev"
+        "psr/http-message": "^2.0@dev",
+        "psr/cache": "^3.0@dev",
+        "psr/simple-cache": "^3.0@dev"
     },
     "require-dev": {
         "phpmd/phpmd": "^2.15",
