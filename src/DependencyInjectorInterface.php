@@ -23,6 +23,8 @@ interface DependencyInjectorInterface
 
     public function getMode(): InjectorModes;
 
+    public function instantiate(DefinitionInterface $definition): mixed;
+
     /**
      * @param object               $obj
      * @param array<string, mixed> $params
