@@ -1,6 +1,6 @@
 <?php
 
-namespace Henrik\Contracts\Command;
+namespace Henrik\Contracts\Console;
 
 interface CommandDefinitionInterface
 {
