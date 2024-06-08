@@ -20,4 +20,6 @@ interface CoreEvents
     public const CACHE_DISPOSE_EVENT = 'CACHE_DISPOSE_EVENT';
 
     public const CACHE_COMMIT_EVENT = 'CACHE_COMMIT_EVENT';
+
+    public const COMMAND_MATCH_EVENTS = 'COMMAND_MATCH_EVENTS';
 }
