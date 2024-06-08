@@ -4,5 +4,11 @@ namespace Henrik\Contracts\Console;
 
 interface CommandProcessorInterface
 {
-    public function process(CommandDefinitionInterface $commandDefinition): void;
+    /**
+     * @param string                $command
+     * @param array<string, scalar> $args
+     *
+     * @return void
+     */
+    public function process(string $command, array $args): void;
 }
