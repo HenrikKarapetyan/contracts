@@ -5,7 +5,7 @@ namespace Henrik\Contracts\Console;
 interface CommandProcessorInterface
 {
     /**
-     * @param string                $command
+     * @param string $command
      *
      * @return void
      */
