@@ -22,4 +22,6 @@ interface CoreEvents
     public const CACHE_COMMIT_EVENT = 'CACHE_COMMIT_EVENT';
 
     public const COMMAND_MATCH_EVENTS = 'COMMAND_MATCH_EVENTS';
+
+    public const COMMAND_DISPATCHER_DEFAULT_DEFINITION_ID = 'commandEventDispatcher';
 }
