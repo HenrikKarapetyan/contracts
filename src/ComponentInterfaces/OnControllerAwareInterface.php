@@ -2,7 +2,7 @@
 
 namespace Henrik\Contracts\ComponentInterfaces;
 
-interface ControllerAwareInterface
+interface OnControllerAwareInterface
 {
     public function getControllersPath(): string;
 }

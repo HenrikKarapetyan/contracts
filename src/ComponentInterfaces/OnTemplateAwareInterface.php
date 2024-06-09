@@ -2,7 +2,7 @@
 
 namespace Henrik\Contracts\ComponentInterfaces;
 
-interface TemplateAwareInterface
+interface OnTemplateAwareInterface
 {
     public function getTemplatesPath(): string;
 }

@@ -2,7 +2,7 @@
 
 namespace Henrik\Contracts\ComponentInterfaces;
 
-interface EventSubscriberAwareInterface
+interface OnEventSubscriberAwareInterface
 {
     /**
      * The declaration of this array must be like this

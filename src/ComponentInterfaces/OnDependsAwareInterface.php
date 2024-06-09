@@ -2,10 +2,10 @@
 
 namespace Henrik\Contracts\ComponentInterfaces;
 
-interface CommandAwareInterface
+interface OnDependsAwareInterface
 {
     /**
      * @return array<string>
      */
-    public function getCommands(): array;
+    public function dependsOn(): array;
 }

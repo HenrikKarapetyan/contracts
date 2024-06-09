@@ -2,7 +2,7 @@
 
 namespace Henrik\Contracts\ComponentInterfaces;
 
-interface AttributesAndParsersAwareInterface
+interface OnAttributesAndParsersAwareInterface
 {
     /**
      * @return array<string, string>
