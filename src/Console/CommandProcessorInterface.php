@@ -7,7 +7,7 @@ interface CommandProcessorInterface
     /**
      * @param string $command
      *
-     * @return void
+     * @return mixed
      */
-    public function process(string $command): void;
+    public function process(string $command): mixed;
 }
