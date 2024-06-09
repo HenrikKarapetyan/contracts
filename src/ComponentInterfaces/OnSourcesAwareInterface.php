@@ -6,10 +6,7 @@ interface OnSourcesAwareInterface
 {
 
     /**
-     * @return string[]
+     * @return array<string, string[]>
      */
     public function getSourcesDirectories(): array;
-
-
-    public function getRootNamespace(): string;
 }
