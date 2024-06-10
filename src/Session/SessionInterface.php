@@ -12,6 +12,13 @@ interface SessionInterface
     public function setDeleteCookie(): void;
 
     /**
+     * @param SessionSegmentInterface $segment
+     *
+     * @return void
+     */
+    public function setSegment(SessionSegmentInterface $segment): void;
+
+    /**
      * @return bool
      */
     public function isResumable(): bool;
