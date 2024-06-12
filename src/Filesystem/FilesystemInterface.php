@@ -28,7 +28,7 @@ interface FilesystemInterface
      * @param string        $namespace
      * @param string[]|null $excludedPaths
      *
-     * @return string[]
+     * @return class-string[]
      */
     public static function getPhpClassesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
 
