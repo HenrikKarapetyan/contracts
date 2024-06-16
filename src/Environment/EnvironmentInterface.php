@@ -17,6 +17,4 @@ interface EnvironmentInterface extends ArrayAccess
      * @param string $file
      */
     public function load(string $file): void;
-
-    public function printData(): void;
 }
