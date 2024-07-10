@@ -32,6 +32,16 @@ interface FilesystemInterface
      */
     public static function getPhpClassesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
 
+
+    /**
+     * @param string        $directory
+     * @param string        $namespace
+     * @param string[]|null $excludedPaths
+     *
+     * @return class-string[]
+     */
+    public static function getPhpSourcesFromDirectory(string $directory, string $namespace, ?array $excludedPaths = []): array;
+
     /**
      * @param string      $path
      * @param int         $mode
